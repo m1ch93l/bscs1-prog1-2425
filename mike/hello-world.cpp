@@ -5,7 +5,7 @@ using namespace std;
 // this line is used to define the main function.
 int main() {
     // this line is used to print "Hello, world!" to the console.
-  cout << "Hello, world!" << endl;
+  cout << "Hello, World!" << endl;
   // this line is used to return 0 from the main function.
   return 0;
 }
