@@ -33,7 +33,7 @@
     cout << "CONCAT" <<endl;
     cout << "Name:" << full <<endl;
 
-    cout << "_____________________"
+    cout << "_____________________" <<endl;
 
     string First = "Angelo ";
     string Middle = "O.";
@@ -45,7 +45,7 @@
  
     fullname = First+Middle+Last;
     
-    cout << ACTIVITY 2" << endl;
+    cout << "ACTIVITY 2" << endl;
     cout << "NAME AND COURSE" << endl;
     cout << "Name:" << fullname <<endl;
     cout << "Course:" << course;
