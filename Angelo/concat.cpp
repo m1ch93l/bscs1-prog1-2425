@@ -13,7 +13,7 @@ using namespace std;
  
     fullname = First+Middle+Last;
     
-    cout << "CONCAT" << endl;
+    cout << "NAME AND COURSE" << endl;
     cout << "Name:" << fullname <<endl;
     cout << "Course:" << course;
     cout << intNum <<endl;
