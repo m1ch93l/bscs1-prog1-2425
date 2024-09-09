@@ -7,6 +7,7 @@ using namespace std;
    int num2 = 8;
    int results = num1+num2;
    
+   cout << "ACTIVITY 3" << endl;
    cout << "COMBINATION" <<endl;
    cout << "Number1:"  << num1 <<endl;
    cout << "Number2:" << num2 <<endl;
