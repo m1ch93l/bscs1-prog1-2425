@@ -11,6 +11,7 @@ using namespace std;
   float divide = 4;
   float result = average/divide;
   
+    cout << "ACTIVITY 4" << endl;
     cout << "Grades" <<endl;
     cout << "Prelim:" << prelim << endl;
     cout << "Midterm:" << midterm << endl;
