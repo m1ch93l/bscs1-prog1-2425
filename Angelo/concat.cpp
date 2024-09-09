@@ -1,22 +1,19 @@
 #include<iostream>
 using namespace std;
-
- int main(){
-
-    string First = "Angelo ";
-    string Middle = "O.";
-    string Last = " Foliente ";
-    string course= "BSCS-";
-    int intNum = 1;
  
-    string fullname;
- 
-    fullname = First+Middle+Last;
+int main(){
+
+    string firstname = "Angelo";
+    string middlename = "O.";
+    string lastname = "Foliente";
     
-    cout << "NAME AND COURSE" << endl;
-    cout << "Name:" << fullname <<endl;
-    cout << "Course:" << course;
-    cout << intNum <<endl;
+    string full;
+    
+    full = firstname +" "+ middlename +" "+ lastname;
+    
+    cout << "ACTIVITY 1" <<endl;
+    cout << "CONCAT" <<endl;
+    cout << "Name:" << full <<endl;
 
 return 0;
 }
