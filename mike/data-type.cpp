@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 int main() {
     
   int intNum = 1;
@@ -17,6 +15,6 @@ int main() {
   cout << "Character: " << charLetter << endl;
   cout << "Boolean: " << boolValue << endl;
   cout << "String: " << stringText << endl;
-  
+
   return 0;
 }
