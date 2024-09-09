@@ -21,6 +21,20 @@
     
     cout << "_____________________" <<endl;
     
+    string firstname = "Angelo";
+    string middlename = "O.";
+    string lastname = "Foliente";
+
+    string full;
+
+    full = firstname +" "+ middlename +" "+ lastname;
+
+    cout << "ACTIVITY 1" <<endl;
+    cout << "CONCAT" <<endl;
+    cout << "Name:" << full <<endl;
+
+    cout << "_____________________"
+
     string First = "Angelo ";
     string Middle = "O.";
     string Last = " Foliente ";
@@ -31,7 +45,8 @@
  
     fullname = First+Middle+Last;
     
-    cout << "CONCAT" << endl;
+    cout << ACTIVITY 2" << endl;
+    cout << "NAME AND COURSE" << endl;
     cout << "Name:" << fullname <<endl;
     cout << "Course:" << course;
     cout << intNum <<endl;
@@ -42,6 +57,7 @@
    int num2 = 8;
    int results = num1+num2;
    
+   cout << "ACTIVITY 3" <<endl;
    cout << "COMBINATION" <<endl;
    cout << "Number1:"  << num1 <<endl;
    cout << "Number2:" << num2 <<endl;
@@ -57,6 +73,7 @@
   float divide = 4;
   float result = average/divide;
   
+    cout << "ACTIVITY 4" <<endl;
     cout << "Grades" <<endl;
     cout << "Prelim:" << prelim << endl;
     cout << "Midterm:" << midterm << endl;
