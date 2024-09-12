@@ -1,0 +1,24 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main () {
+string stringText = "Grades";// corrected data type
+int A = 80;
+int B = 90;
+int C = 95;
+int D = 100;
+int E = A + B + C + D;
+Float Y = 4; // Corrected to Float and Properly Named
+Float Z = E / Y; // Corrected to Float and Declared Z
+
+cout << "Grades; " << endl;
+cout << "Prelims; " << A << endl;
+cout << "Midterms; " << B << endl;
+cout << "Prefinals; " << C << endl;
+cout << " Finals; " << D << endl;
+cout << " Average; " << Z << endl;
+// correctly Printing average 
+
+return 0;
+}
