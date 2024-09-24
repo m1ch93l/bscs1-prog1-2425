@@ -3,12 +3,25 @@ using namespace std;
 
 int main() {    
     int num = 9;
-    
-    if (num == 10){
+    int num1 = 10;
+
+    if (num == 9){
         cout << "first output" << endl;
-    } else if (num == 9){
+        if(num1 == 10){
+            cout << "another condition" << endl;
+            if(num1 == 10){
+            cout << "another condition" << endl;
+            }else{
+                cout << "another output" << endl;
+            }
+        }else{
+            cout << "another output" << endl;
+        }
+    } else if (num == 10){
         cout << "second output" << endl;
-    } else {
+    } else if(num1 == 10) {
+        cout << "third output" << endl;
+    }else{
         cout << "last output" << endl;
     }
     
