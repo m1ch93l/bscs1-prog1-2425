@@ -11,6 +11,7 @@ int main() {
         cin >> enterNum;
         if(enterNum == guess) {
             cout << "correct!" << endl;
+            break;
         }else{
             cout << "incorrect!" << endl;
         }
