@@ -3,15 +3,16 @@ using namespace std;
 
 int main() {
 
-    int number;
-    cout << "Enter a number: ";
-    cin >> number;
+    // int number;
+    char letter;
+    cout << "Enter a letter: ";
+    cin >> letter;
 
-    switch(number) {
-        case 1:
+    switch(letter) {
+        case 'a':
             cout << "One" << endl;
             break;
-        case 2:
+        case 'b':
             cout << "Two" << endl;
             break;
         case 3:
