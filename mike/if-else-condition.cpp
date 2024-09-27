@@ -5,7 +5,7 @@ int main() {
 
     int num = 9;
 
-    if (num == 10){
+    if (num > 9){
         cout << "Correct" << endl;
     }else{
         cout << "Incorrect" << endl;
