@@ -20,3 +20,4 @@ cout << "Weight: " << Wieght << endl;
 cout << "Enrolled: " << Enrolled << endl;
 
 }
+
