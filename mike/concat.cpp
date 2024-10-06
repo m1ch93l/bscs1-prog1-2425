@@ -5,11 +5,12 @@ int main() {
     
   string firstName = "michael";
   string middleName = "bolo";
-  string lastName = "bañaria";
-  
+  string lastName = "banaria";
+
   string fullName;
+  int number = 1;
   
-  fullName = firstName + " " + middleName + " " + lastName;
+  fullName = firstName + " " + middleName + " " + lastName + to_string(number);
   
   cout << fullName << endl;
   
