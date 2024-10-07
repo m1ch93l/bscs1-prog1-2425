@@ -3,9 +3,9 @@
 
   int main(){
 
-    string name = "jayjay";
-    char middle = 'm';
-    string last = "tirol";
+    string name = "Jayjay";
+    char middle = 'M';
+    string last = "Tirol";
     int age = 18;
     bool boolvalue = true;
     double height = 180;
@@ -21,9 +21,9 @@
     
     cout << "_____________________" <<endl;
     
-    string firstname = "jayjay";
-    string middlename = "m.";
-    string lastname = "tirol";
+    string firstname = "Jayjay";
+    string middlename = "M.";
+    string lastname = "Tirol";
 
     string full;
 
@@ -35,9 +35,9 @@
 
     cout << "_____________________" <<endl;
 
-    string First = "jayjay ";
-    string Middle = "m.";
-    string Last = " tirol ";
+    string First = "Jayjay ";
+    string Middle = "M.";
+    string Last = " Tirol ";
     string course= "ACT-";
     int intNum = 1;
  
