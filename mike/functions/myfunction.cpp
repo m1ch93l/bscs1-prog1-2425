@@ -17,5 +17,12 @@ int main() {
 // }
 
 // int number = getFavoriteNumber();
-
 // cout << "My Favorite number is: " << number ;
+
+// void printSum(int a, int b) {
+//   cout << "The sum of " << a ;
+//   cout << " and " << b << " is " ;
+//   cout << a + b << endl;
+// }
+
+// printSum(91, 23);
