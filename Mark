@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string firstName, middleName, lastName;
+
+    std::cout << "Mark Jonrie ";
+    std::cin >> firstName;
+    
+    std::cout << "C. ";
+    std::cin >> middleName;
+    
+    std::cout << "Saltarin ";
+    std::cin >> lastName;
+
+    std::cout << firstName << " " << middleName << " " << lastName << std::endl;
+
+    return 0;
+    }
