@@ -3,13 +3,13 @@
 
   int main(){
 
-    string name = "Angelo";
-    char middle = 'O';
-    string last = "Foliente";
-    int age = 19;
+    string name = "Princess";
+    char middle = 'F';
+    string last = "Estimo";
+    int age = 18;
     bool boolvalue = true;
-    double height = 162.5;
-    float weight = 49.4;
+    double height = 168.5;
+    float weight = 43;
     
     cout << "Name:" << name << endl;
     cout << "MiddleName:" << middle << endl;
@@ -21,9 +21,9 @@
     
     cout << "_____________________" <<endl;
     
-    string firstname = "Angelo";
-    string middlename = "O.";
-    string lastname = "Foliente";
+    string firstname = "Princess";
+    string middlename = "F.";
+    string lastname = "Estimo";
 
     string full;
 
@@ -35,10 +35,10 @@
 
     cout << "_____________________" <<endl;
 
-    string First = "Angelo ";
-    string Middle = "O.";
-    string Last = " Foliente ";
-    string course= "BSCS-";
+    string First = "Princess ";
+    string Middle = "F.";
+    string Last = " Estimo ";
+    string course= "ACT-";
     int intNum = 1;
  
     string fullname;
