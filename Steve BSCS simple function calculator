@@ -1,0 +1,23 @@
+Sure! Here’s a simple calculator function in Python that can perform basic arithmetic operations:
+
+def calculator(num1, num2, operation):
+    if operation == 'add':
+        return num1 + num2
+    elif operation == 'subtract':
+        return num1 - num2
+    elif operation == 'multiply':
+        return num1 * num2
+    elif operation == 'divide':
+        if num2 != 0:
+            return num1 / num2
+        else:
+            return "Error: Division by zero"
+    else:
+        return "Error: Invalid operation"
+
+# Example usage
+result = calculator(10, 5, 'add')
+print(result)  # Output: 15
+
+This function takes two numbers and an operation as input, returning the result of the specified operation. You can easily extend it to include more operations if needed.
+
