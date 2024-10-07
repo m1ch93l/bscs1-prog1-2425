@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
 
-string firstname =  "Florence";
-string middlename =  "Malate";
-string lastname =  "Cornelio";
+string firstname =  "Nina Joy";
+string middlename =  "Delima";
+string lastname =  "Parica";
 
 string fullname ;
 
