@@ -7,7 +7,15 @@ void myFunction() {
 
 int main() {
 
-    myFunction();
+  myFunction();
 
-    return 0;
+  return 0;
 }
+
+// int getFavoriteNumber() {
+//   return 7;
+// }
+
+// int number = getFavoriteNumber();
+
+// cout << "My Favorite number is: " << number ;
