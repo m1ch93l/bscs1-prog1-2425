@@ -1,0 +1,293 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    string stringText = "Jhondean"; 
+    int intNum = 22;
+    float floatNum = 1.5;
+    double doubleNum = 1.75;
+    char charLetter = 'J';
+    bool boolValue = false;
+
+    cout << "Name:" << stringText << endl;
+    cout << "Age:" << intNum << endl;
+    cout << "Coke:" << floatNum << endl;
+    cout << "Sprite:" << doubleNum << endl;
+    cout << "1st Letter:" << charLetter << endl;
+    cout << "Human?" << boolValue << endl;
+
+    return 0;
+
+}
+
+#include <iostream>
+using namespace std;
+int main(){
+
+    string stringText = "Jhondean Cana Monte";
+    string course = "BSCS-1";
+
+    cout << "Activities: (September 9 2024)" << endl;
+    cout << "                           " << endl;
+    cout << "                           " << endl;
+    cout << "                           " << endl;
+    cout << "Activity 1: Name & Course" << endl;
+    cout << "                           " << endl;
+    cout << "Fullname:" << stringText << endl;
+    cout << "Course:" << course << endl;
+    cout << "________________________________"<< endl;
+    cout << "                           " << endl;
+
+    string firstname = "Jhondean";
+    string middlename = "Cana";
+    string lastname = "Monte";
+
+    string fullname;
+
+fullname = firstname + " " + middlename + " " + lastname;
+
+    cout << "Activity 2: Concat " << endl;
+    cout << "                                            " << endl;
+    cout << fullname << endl;
+
+    int number1 = 2;
+    int number2 = 8;
+    int number3 = number1+number2;
+
+    cout << "________________________________"<< endl;
+    cout << "                           " << endl;
+    cout << "Activity3: Combination/Addition" << endl;
+    cout << "                           " << endl;
+    cout << "Number1:" << number1 << endl;
+    cout << "Number2:" << number2 << endl;
+    cout << "Results:" << number3 << endl; 
+
+    int num1 = 80;
+    int num2 = 90;
+    int num3 = 95;
+    int num4 = 85;
+    int num5 = num1+num2+num3+num4;
+    float add = 4;
+
+    float Avg = num5/add;
+
+    cout << "________________________________"<< endl;
+    cout << "                           " << endl;
+    cout << "Activity 4: Computing Semister Average" << endl;
+    cout << "                           " << endl;
+    cout << "Prelim:" << num1 << endl;
+    cout << "Midterm:" << num2 << endl;
+    cout << "Prefinal:" << num3 << endl;
+    cout << "Final:" << num4 << endl;
+    cout << "Average:" << Avg << endl;
+
+
+    return 0;
+}
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string Firstname, Secondname, Middlename, Lastname;
+
+    cout << "ACTIVITY 1:" << endl;
+    cout << "" << endl;
+
+    cout << "First Name: ";
+    cin >> Firstname;
+    cin >> Secondname;
+
+    cout << "Middle Name: ";
+    cin >> Middlename;
+
+    cout << "Last Name: ";
+    cin >> Lastname;
+
+    string fullname;
+    fullname = Firstname+ " "+Secondname+" " +Middlename+ " " +Lastname;
+
+    cout << "" << endl;
+    cout << "FULL NAME: " << fullname << endl;
+    cout << "" << endl;
+
+
+    double prelim, midterm, prefinal, final;
+
+    cout << "ACTIVITY 2:" << endl;
+    cout << "" << endl;
+
+    cout << "Grades" << endl;
+    cout << "" << endl;
+
+    cout << "Prelim: ";
+    cin >> prelim;
+
+    cout << "Midterm: ";
+    cin >> midterm;
+
+    cout << "Prefinal: ";
+    cin >> prefinal;
+
+    cout << "Final: ";
+    cin >> final;
+
+    double addition = prelim+midterm+prefinal+final;
+    double division = addition/4;
+
+    cout << "" << endl;
+    cout << "TOTAL AVERAGE: " << division << endl;
+
+    return 0;
+
+
+
+
+}
+
+#include <iostream>
+
+using namespace std;
+
+int main () {
+
+cout<< "This was a Prelim Exam!" << endl;
+cout << "______________________________________________" << endl;
+
+ string firstname,lastname;
+ int birthyear;
+ 
+ cout << "FIRST NAME: ";
+getline(cin,firstname);
+ 
+ cout << "LAST NAME: ";
+ cin >> lastname;
+ 
+ cout << "BIRTH YEAR: ";
+ cin >> birthyear;
+ 
+int currentyear =2024;
+int yearold = currentyear - birthyear;
+
+string greet1 = "Hi!";
+string greet2 = "you are";
+string greet3 = "years old today";
+
+
+cout <<"" << endl;
+string full = greet1+ " " +firstname+ " " +lastname+ " " +greet2+ " " + to_string(yearold)+ " " +greet3;
+cout << full << endl;
+
+cout << "______________________________________________" << endl;
+cout << "" << endl;
+cout << "Please Enter Your Grades!" << endl;
+cout << "" << endl;
+
+int prelim;
+int midterm;
+int prefinal;
+int final;
+
+cout << "Prelim: ";
+cin >> prelim;
+
+cout << "Midterm: ";
+cin >> midterm;
+
+cout << "Prefinal: ";
+cin >> prefinal;
+
+cout << "Final: ";
+cin >> final;
+
+double add = prelim+midterm+prefinal+final;
+double divide = add/4;
+
+cout << "" << endl;
+cout << "Your Average is: " << divide << endl;
+
+cout << "" << endl;
+if (divide <= 50){cout << "Sorry, You failed" << endl << "You got a 5.00 Grade Point" << endl << "Failed" << endl;}
+if (divide > 50) if (divide <= 56){cout << "Congratulations! You passed!" << endl << "You got a 3.00 Grade Point" << endl << "Fair" << endl;}
+if (divide > 57) if (divide <= 62){cout << "Congratulations! You passed!" << endl << "You got a 2.75 Grade Point" << endl << "Fair" << endl;}
+if (divide > 63) if (divide <= 68){cout << "Congratulations! You passed!" << endl << "You got a 2.50 Grade Point" << endl << "Fair" << endl;}
+if (divide > 69) if (divide <= 74){cout << "Congratulations! You passed!" << endl << "You got a 2.25 Grade Point" << endl << "Good" << endl;}
+if (divide == 75) if (divide >= 80){cout << "Congratulations! You passed!" << endl << "You got a 2.00 Grade Point" << endl << "Good" << endl;}
+if (divide > 81) if (divide <= 85){cout << "Congratulations! You passed!" << endl << "You got a 1.75 Grade Point" << endl << "Good" << endl;}
+if (divide > 86) if (divide <= 90){cout << "Congratulations! You passed!" << endl << "You got a 1.50 Grade Point" << endl << "Very Good!" << endl;}
+if (divide > 91) if (divide <= 95){cout << "Congratulations! You passed!" << endl << "You got a 1.25 Grade Point" << endl << "Very Good!" << endl;}
+else if (divide > 96) if (divide <=100){cout << "Congratulations! You passed!" << endl << "You got a 1.00 Grade Point" << endl << "EXCELLENT!" << endl;}
+return 0; 
+}
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int choose, guessNum;
+    int guess = 99;
+    int attempts = 5;
+    
+
+cout << "Welcome to Guessing Game! The mechanics is," << endl;
+cout <<"You will choose a number between 1 to 100." << endl;
+cout << "GOODLUCK and Have Fun:>" << endl;
+cout << "" << endl;
+
+    do {
+        cout << "Choose a number [1][2]: ";
+        cin >> choose;
+
+        if(choose == 1) {
+        
+        cout << "" << endl;
+            cout << "Enter a number: ";
+            cin >> guessNum;
+            
+            while(guessNum != guess && attempts > 1){
+            if (guessNum < guess) {
+            cout << "Too low! Please try again" << endl;
+            } else if(guessNum > guess){
+            cout << "Too high! Please try again" << endl;
+            }
+            
+            
+            attempts--;
+            cout << "You have " << attempts << " lives left" <<endl;
+            
+            if(attempts > 0) {
+              cout << "" << endl;
+              cout << "Enter a number: ";
+              cin >> guessNum;
+              }
+            }
+                
+                
+
+            if(guessNum == guess) {
+
+            cout << "Congratulations! You guessed it!" << endl;
+            cout << "" << endl;
+            } else {
+              cout << "You're out of lives! Game over!" << endl;
+            }  
+           
+           attempts = 5;
+           
+
+        } else if (choose == 2) {
+            cout << "Goodbye!" << endl;
+            break;
+        }
+
+    } while(choose != 2);
+
+
+    return 0;
+}
+
