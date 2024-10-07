@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+int picture = 2;
+
+{int inNum = 6;
+float floatNum = 159.6;
+double doubleNum = 159.6;
+char charLetter = 'M';
+bool boolValue = true;
+string stringText = "Hello Mariel!  927373;
+
+string firstName = "mariel";
+string middleName = "tucay";
+string last name = "garcia";
+
+     string fullName;
+
+fullName = firstName+' ' +middleName+' ' +lastName;
+
+cout << "Integer: " << intNum << endl;
+cout << "Float: "  << floatNum << endl;
+cout  << "Double: " << double Num
+
+    cout << "Hello World!" << endl;
+    return 0;
+}
