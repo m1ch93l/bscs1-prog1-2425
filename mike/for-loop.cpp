@@ -9,10 +9,12 @@ int main() {
     for (number; number <= 10; number++) {
         cout << "Guess the number: ";
         cin >> enterNum;
+
         if(enterNum == guess) {
-            cout << "correct!" << endl;
+            cout << "correct! Congratulation!" << endl;
+            break;
         }else{
-            cout << "incorrect!" << endl;
+            cout << "incorrect! Please try again" << endl;
         }
     }
 
