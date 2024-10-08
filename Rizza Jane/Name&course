@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+  string stringtext = "Rizza Jane C. Castroverde";
+  string course = "BSCS-1";
+  
+  
+  cout << "Full name:" << stringtext<< endl;
+  cout << "course:" << course << endl;
+    return 0;
+}
