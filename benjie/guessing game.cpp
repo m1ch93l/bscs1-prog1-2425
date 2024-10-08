@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int choose, guessNum;
-    int guess = 88;
+    int guess = 69;
     int attempts = 5; 
 
     do {
