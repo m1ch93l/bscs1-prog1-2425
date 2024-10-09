@@ -19,10 +19,16 @@ void division(int a, int b) {
 
 int main() {
 
-  add(5, 3);
-  subtract(5, 3);
-  multiply(5, 3);
-  division(5, 3);
+  float num1, num2;
+  cout << "Enter 1st Number: ";
+  cin >> num1;
+  cout << "Enter 2nd Number: ";
+  cin >> num2;
+
+  add(num1, num2);
+  subtract(num1, num2);
+  multiply(num1, num2);
+  division(num1, num2);
 
   return 0;
 
