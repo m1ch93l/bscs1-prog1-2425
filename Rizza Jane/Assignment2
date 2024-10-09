@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  // Define the grades as variables
+  int prelim = 90;
+  int midterm = 80;
+  int prefinal = 85;
+  int final = 95;
+
+  // Calculate the average
+  double average = (prelim + midterm + prefinal + final) / 4.0;
+
+  // Display the results
+  cout << "Grades:" << endl;
+  cout << "Prelim: " << prelim << endl;
+  cout << "Midterm: " << midterm << endl;
+  cout << "Prefinal: " << prefinal << endl;
+  cout << "Final: " << final << endl;
+  cout << "Average: " << average << endl;
+
+  return 0;
+}
