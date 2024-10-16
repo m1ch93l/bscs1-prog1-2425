@@ -1,5 +1,5 @@
 //Take home activity
-// October 10,2024
+// October 9,2024
 
 #include <iostream>
 using namespace std;
