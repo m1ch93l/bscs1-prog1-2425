@@ -1,13 +1,19 @@
 #include <iostream>
 using namespace std;
 
-void myFunction() {
-  cout << "I just got executed!";
+// void myFunction() {
+//   cout << "I just got executed!";
+// }
+
+int getFavoriteNumber() {
+  return 10;
 }
 
 int main() {
 
-  myFunction();
+  // myFunction();
+  int number = getFavoriteNumber();
+  cout << "My Favorite number is: " << number ;
 
   return 0;
 }

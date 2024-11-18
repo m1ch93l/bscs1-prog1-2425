@@ -14,16 +14,18 @@ void multiply(int a, int b) {
 }
 
 void division(int a, int b) {
-  cout << "Quotient: " << a/b << endl;
+    cout << "Quotient: " << a/b << endl;
 }
 
 int main() {
+  int num1, num2;
 
-  float num1, num2;
-  cout << "Enter 1st Number: ";
+  cout << "Enter the first number: ";
   cin >> num1;
-  cout << "Enter 2nd Number: ";
+  cout << "Enter the second number: ";
   cin >> num2;
+  
+  cout << "" << endl;
 
   add(num1, num2);
   subtract(num1, num2);
@@ -31,5 +33,4 @@ int main() {
   division(num1, num2);
 
   return 0;
-
 }
