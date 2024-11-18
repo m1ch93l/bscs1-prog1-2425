@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+    class Person {
+            public:
+                string name;
+                int age;
+                };
+           class Car{
+               public:
+                   string name;
+                   int age;
+                   };
+                   
+                   
+    int main() {
+    
+        Person person1;
+        person1.name = "Mariel";
+        person1.age = 18;
+        Car car1;
+        car1.name = "Maclaren";
+        car1.age = 61;
+        
+        cout << person1.name << " is " << person1.age << "years old." << endl;
+        cout << car1.name << " is " << car1.age  << "years old." << endl;
+
+    
+    return 0;
+}
