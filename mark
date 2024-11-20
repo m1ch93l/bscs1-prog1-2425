@@ -1,128 +1,19 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
-const int MAX_USERS = 10;
-const int MAX_ATTEMPTS = 3;
-
-struct User {
-    string username;
-    string password;
-};
-
-User users[MAX_USERS];
-int userCount = 0;
-
-void welcomeScreen() {
-    cout << "Welcome to the Login Registration" << endl;
-}
-
-void registerUser() {
-    if (userCount >= MAX_USERS) {
-        cout << "User limit reached. Cannot register more users." << endl;
-        return;
-    }
-
-    string username, password;
-    cout << "Register Username: ";
-    cin >> username;
-    cout << "Register Password: ";
-    cin >> password;
-
-    users[userCount].username = username;
-    users[userCount].password = password;
-    userCount++;
-    cout << "Registration Successful!" << endl;
-}
-
-bool loginUser() {
-    string username, password;
-    int attempts = 0;
-
-    cout << "Login Username: ";
-    cin >> username;
-
-    while (attempts < MAX_ATTEMPTS) {
-        cout << "Login Password: ";
-        cin >> password;
-
-        for (int i = 0; i < userCount; i++) {
-            if (users[i].username == username && users[i].password == password) {
-                cout << "Registered!" << endl;
-                return true;
-            }
-        }
-        attempts++;
-        cout << "Incorrect Password! Try Again!" << endl;
-
-        if (attempts == MAX_ATTEMPTS) {
-            cout << "3 attempts to enter Incorrect passwords. Try again next day!" << endl;
-            return false;
-        }
-    }
-    return false;
-}
-
-void atmMenu(double &balance) {
-    int option;
-
-    do {
-        cout << "ATM Menu:" << endl;
-        cout << "1. Deposit" << endl;
-        cout << "2. Withdraw" << endl;
-        cout << "3. Check Balance" << endl;
-        cout << "4. Exit" << endl;
-        cout << "Choose an option: ";
-        cin >> option;
-
-        if (option == 1) {
-            double depositAmount;
-            cout << "Enter deposit amount: ";
-            cin >> depositAmount;
-            balance += depositAmount;
-            cout << "Deposit successful!" << endl;
-        } else if (option == 2) {
-            double withdrawAmount;
-            cout << "Enter withdrawal amount: ";
-            cin >> withdrawAmount;
-
-            if (withdrawAmount > balance) {
-                cout << "Insufficient balance!" << endl;
-            } else {
-                balance -= withdrawAmount;
-                cout << "Withdrawal successful!" << endl;
-            }
-        } else if (option == 3) {
-            cout << "Current Balance: " << balance << endl;
-        }
-
-    } while (option != 4);
-}
-
 int main() {
-    int choice;
-    double balance = 0.0;
+    std::string firstName, middleName, lastName;
 
-    welcomeScreen();
+    std::cout << "Mark Jonrie ";
+    std::cin >> firstName;
+    
+    std::cout << "C. ";
+    std::cin >> middleName;
+    
+    std::cout << "Saltarin ";
+    std::cin >> lastName;
 
-    do {
-        cout << "1. Login" << endl;
-        cout << "2. Register" << endl;
-        cout << "3. Exit" << endl;
-        cout << "Choose an option: ";
-        cin >> choice;
+    std::cout << firstName << " " << middleName << " " << lastName << std::endl;
 
-        if (choice == 1) {
-            if (loginUser()) {
-                atmMenu(balance);
-            }
-        } else if (choice == 2) {
-            registerUser();
-        }
-
-    } while (choice != 3);
-
-    cout << "Exiting... Thank you!" << endl;
     return 0;
-}
+    }
