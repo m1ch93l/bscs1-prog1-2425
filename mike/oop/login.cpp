@@ -28,9 +28,23 @@ public:
 int main() {
 
     // Create user objects
-    User student("student1", "pass123", "Student");
-    User faculty("faculty1", "teach456", "Faculty");
-    User admin("admin1", "admin789", "Administrator");
+    User student[] = {
+        User("student1", "pass123", "Student"),
+        User("student2", "pass456", "Student"),
+        User("student3", "pass789", "Student")
+        };
+
+    User faculty[] = {
+        User("faculty1", "teach123", "Faculty"),
+        User("faculty2", "teach456", "Faculty"),
+        User("faculty3", "teach789", "Faculty")
+        };
+
+    User admin[] = {
+        User("admin1", "admin123", "Administrator"),
+        User("admin2", "admin456", "Administrator"),
+        User("admin3", "admin789", "Administrator")
+        };
 
     string uname, password;
 
